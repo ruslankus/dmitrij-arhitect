@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'eurostile_cond';
+    src: url('../fonts/eurostile_condensed-regular.eot');
+    src: url('../fonts/eurostile_condensed-regular.svg#eurostile_condregular') format('svg'),
+		 url('../fonts/eurostile_condensed-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/eurostile_condensed-regular.woff2') format('woff2'),
+         url('../fonts/eurostile_condensed-regular.woff') format('woff'),
+         url('../fonts/eurostile_condensed-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+body {
+	font-family:'eurostile_cond',sans-serif;}
