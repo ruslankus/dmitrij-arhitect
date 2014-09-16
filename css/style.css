@@ -93,3 +93,29 @@ header .email-holder {
 	background:url(../images/phone.png) left center no-repeat;
 	font-size:35px;
 	color:#99a2aa;}
+	
+/*--aside part --*/
+
+#logo {
+	text-align:center;
+	margin-top:55px;
+	margin-bottom:55px;}
+	
+.meniu-item-holder {
+	margin-bottom:30px;}	
+	
+.meniu-item-heading > a {
+	font-size:20px;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:black;
+	line-height:48px;
+	display:block;
+	height:48px;
+	border:1px solid #e1e1e1;
+	border-radius:5px;
+	text-align:center;	
+	
+	
+	
+	
