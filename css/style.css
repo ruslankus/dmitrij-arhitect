@@ -105,17 +105,60 @@ header .email-holder {
 	margin-bottom:30px;}	
 	
 .meniu-item-heading > a {
+	background-color:#ff4e09;
+	color:white;
 	font-size:20px;
 	text-transform:uppercase;
 	text-decoration:none;
-	color:black;
 	line-height:48px;
 	display:block;
 	height:48px;
-	border:1px solid #e1e1e1;
 	border-radius:5px;
-	text-align:center;	
+	text-align:center;}
+		
+	
+.meniu-item-heading > a.collapsed {
+	background-color:transparent;
+	border:1px solid #e1e1e1;
+	color:black;}
+	
+.meniu-item-body {
+	color:#333333;
+	margin-top:20px;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:14px;
+	line-height:20px;}
 	
 	
+/*--- project section ----*/
+.photo-holder > .photos {
+	display:none;}
 	
+.photo-holder > .photos:first-child {
+	display:block;}
+
+.project-head {
+	padding-top:10px;
+	padding-bottom:10px;}	
 	
+.project-header {
+	width:180px;
+	float:left;}
+	
+.project-header > h4 {
+	margin:0;
+	font-size:23px;
+	color:#ff4e09;
+	display:inline-block;}
+	
+.project-status {
+	background:url(../images/logo-complete.png) right top no-repeat;
+	width:80px;
+	font-size:12px;
+	text-transform:uppercase;
+	line-height:12px;
+	color:#6e757b;
+	padding-right:20px;
+	text-align:left;
+	float:right;}	
+		
