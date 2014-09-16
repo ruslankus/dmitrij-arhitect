@@ -160,5 +160,54 @@ header .email-holder {
 	color:#6e757b;
 	padding-right:20px;
 	text-align:left;
-	float:right;}	
+	float:right;}
+	
+.project-details {
+	padding-bottom:10px;
+	background:url(../images/line-proj-bg.png) bottom left no-repeat;
+	margin-bottom:20px;}	
+	
+.project-details > p {
+	margin-bottom:0px;
+	font-size:15px;}
+	
+.project-details > p > span {
+	text-align:left;
+	display:inline-block;}			
 		
+.project-details > p >span:first-child {
+	width:60px;
+	color:#999999;}
+	
+.project-details > p >span:last-child {
+	color:333333;}
+	
+/*---- footer ----*/
+footer {
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#303438;
+	border-top:2px solid #ff4e09;} 
+	
+footer p {
+	text-align:center;
+	color:#575b60;}
+	
+footer p > a {
+	color:#777d84;}
+	
+footer p > a:hover {
+	color:#777d84;
+	text-decoration:underline;}
+	
+	
+/*---- media responce part ----*/
+@media (min-width: 471px) {
+		
+}	
+	
+		
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px){
+	
+}
