@@ -132,7 +132,16 @@ header .email-holder {
 	
 /*--- project section ----*/
 .photo-holder > .photos {
+	width:100%;
+	float:left;
 	display:none;}
+	
+.photo-holder > .photos > a {
+	display:block;
+	width:100%;}
+	
+.photo-holder > .photos > a > img {
+	max-width:100%;}
 	
 .photo-holder > .photos:first-child {
 	display:block;}
@@ -203,8 +212,8 @@ footer p > a:hover {
 	
 /*---- media responce part ----*/
 @media (min-width: 471px) {
-		
-}	
+	.photo-holder > .photos {width:50%;}	
+	.photo-holder > .photos:last-child {display:block;} 
 	
 		
 /* Small devices (tablets, 768px and up) */
