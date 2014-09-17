@@ -26,6 +26,7 @@ body {
 /*---- header  area -----*/
 header {
 	padding-top:20px;
+	padding-bottom:15px;
 	background-color:#303438;
 	border-bottom:4px solid #ff4e09;}
 	
@@ -89,10 +90,14 @@ header .email-holder {
 	
 	
 .phohe-holder > span {
-	padding-left:30px;
-	background:url(../images/phone.png) left center no-repeat;
+	display:inline-block;
 	font-size:35px;
 	color:#99a2aa;}
+	
+.phohe-holder > span:first-child {
+	transform:rotate(20deg);
+	font-size:24px;
+	color:#50555a;}
 	
 /*--aside part --*/
 
