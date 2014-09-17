@@ -15,7 +15,11 @@
 * {
 	margin:0;
 	padding:0}
-
+	
+	
+header > div, footer > div, #main-content-wrapper > div {
+	max-width:1200px;
+	margin: 0 auto;}
 
 
 body {
@@ -218,16 +222,21 @@ footer p > a:hover {
 /*---- media responce part ----*/
 @media (min-width: 471px) {
 	.photo-holder > .photos {width:50%;}	
-	.photo-holder > .photos:last-child {display:block;} 
+	.photo-holder > .photos:nth-child(2) {display:block;} 
 	
 		
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px){
-	
-	
+	.phohe-holder { margin-top:-5px; text-align:right;}
+	.email-holder > p { text-align:left;}
+	#logo {margin-top:60px; margin-bottom:60px;}
+	footer p { text-align:right;}	
 }
 
 
 @media (min-width:992px){
-	.photo-holder > .photos {width:33%; display:block;}	
+	.photo-holder > .photos {width:33%; display:block;}
+	.project-details > p { display:block; width:33%; float:left;}
+	.project-details > p > span {display:block;}
+		
 }
