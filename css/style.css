@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: 'eurostile_cond';
-    src: url('../fonts/eurostile_condensed-regular-webfont.eot');
-    src: url('../fonts/eurostile_condensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/eurostile_condensed-regular-webfont.woff2') format('woff2'),
-         url('../fonts/eurostile_condensed-regular-webfont.woff') format('woff'),
-         url('../fonts/eurostile_condensed-regular-webfont.ttf') format('truetype'),
-         url('../fonts/eurostile_condensed-regular-webfont.svg#eurostile_cond') format('svg');
+    src: url('../fonts/eurostile_condensed-regular.eot');
+    src: url('../fonts/eurostile_condensed-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/eurostile_condensed-regular.woff2') format('woff2'),
+         url('../fonts/eurostile_condensed-regular.woff') format('woff'),
+         url('../fonts/eurostile_condensed-regular.ttf') format('truetype'),
+         url('../fonts/eurostile_condensed-regular.svg#eurostile_cond') format('svg');
     font-weight: 400;
     font-style: normal;
 
