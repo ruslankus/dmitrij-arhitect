@@ -224,4 +224,10 @@ footer p > a:hover {
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px){
 	
+	
+}
+
+
+@media (min-width:992px){
+	.photo-holder > .photos {width:33%; display:block;}	
 }
