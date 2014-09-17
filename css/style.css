@@ -22,6 +22,9 @@ header > div, footer > div, #main-content-wrapper > div {
 	margin: 0 auto;}
 
 
+html {
+	height:100%;}
+
 body {
 	font-family:'eurostile_cond',sans-serif;
 	font-weight:400;}
@@ -228,9 +231,20 @@ footer p > a:hover {
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px){
 	.phohe-holder { margin-top:-5px; text-align:right;}
+	header .email-holder { padding-right:0;}
 	.email-holder > p { text-align:left;}
 	#logo {margin-top:60px; margin-bottom:60px;}
-	footer p { text-align:right;}	
+	footer p { text-align:right;}
+	.project-holder {min-height:700px;}
+}
+
+
+/* iPad in portrait----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait){
+	.project-holder {min-height:800px;}
 }
 
 
@@ -238,5 +252,12 @@ footer p > a:hover {
 	.photo-holder > .photos {width:33%; display:block;}
 	.project-details > p { display:block; width:33%; float:left;}
 	.project-details > p > span {display:block;}
+	.project-status { margin-right:5px;}
 		
+}
+
+@media (min-width:1200px){
+	.phohe-holder { width:245px; padding-right:25px; padding-left:0; float:right;}
+	header .email-holder { width:245px; padding-right:0;padding-left:55px;}
+	.project-holder {min-height:770px;}
 }
