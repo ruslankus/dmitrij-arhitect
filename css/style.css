@@ -114,7 +114,10 @@ header .email-holder {
 	margin-bottom:55px;}
 	
 .meniu-item-holder {
-	margin-bottom:30px;}	
+	margin-bottom:30px;}
+	
+.meniu-item-holder .collapse {
+	text-align:justify;}		
 	
 .meniu-item-heading > a {
 	background-color:#ff4e09;
@@ -173,7 +176,7 @@ header .email-holder {
 	display:inline-block;}
 	
 .project-status {
-	background:url(../images/logo-complete.png) right top no-repeat;
+	background: url(../images/architect_logo_small.svg) right top no-repeat;
 	width:80px;
 	font-size:12px;
 	text-transform:uppercase;
